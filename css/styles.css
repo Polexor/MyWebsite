@@ -1,0 +1,203 @@
+body {
+  margin: 0;
+  color: #40515E;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  /*(font, family)*/
+}
+
+h1 {
+  font-size: 5.625rem; /*Dynamic font size 90/16(const) 16px=100%=1em*, use rem btw/
+  margin: 0 auto;
+  /* (For 2 values)top and bottom 0, left and right auto
+                   (For 3 values) top, left and right, bottom
+                   (For 4 values) all four sides in a clockwise directions*/
+  margin: 50px auto 0 auto;
+  line-height: 2;
+  font-family: 'Courgette', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #11999E;
+
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 auto;
+  color: #11999E;
+}
+p{
+  line-height: 2;
+}
+hr{
+  border-style: dotted none none none;
+  border-width: 7px;
+  border-color: darkgrey;
+  width: 5%;
+  margin: 50px auto 50px auto;
+}
+a{
+  color: #11999E;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+/*All image sizings*/
+.profileMe {
+  border-radius: 50%;
+  width: 10%;
+  height: auto;
+  padding: 15px;
+
+}
+
+.aboutMe{
+  margin-top: 0;
+}
+
+.profileBorder {
+  position: absolute;
+  width: 10%;
+  height: auto;
+  padding: 15px;
+}
+.copyright{
+  color: #EAF6F6;
+  font: 75%rem;
+  padding: 20px 0;
+}
+.codeIcon {
+  width: 15%;;
+  float: left;
+  margin-right: 10px;
+}
+
+.c-aboutMe{
+  margin: 0 auto;
+  /* clear: left... etc; to make sure text does not wrap around the image  */
+}
+
+.pythonGif {
+  width: 15%;;
+  float: left;
+  margin-right: 10px
+
+}
+.python-aboutMe{
+margin: 0;
+}
+
+.javaScriptGif {
+  width: 15%;;
+  float: right;
+  margin: 10px
+
+}
+.progStyl{
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+/*end*/
+
+.topContainer {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.allAbout{
+  margin: auto;
+  width: 50%;
+
+}
+.contact-me{
+  width: 30%;
+  margin: 40px auto 60px auto;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+
+}
+.knowPad{
+  padding-bottom: 20px;
+}
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.middle-container {
+  margin: 25px 0;
+  /*display:inline-block; will put position of containers on the same line*/
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  height: 100px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.footer-link{
+  padding-left:20px;
+  align-items: center;
+  margin: 0px;
+  display: inline-block;
+
+}
+
+.contact-me{
+  height: 100px;
+
+}
+.touch{
+  margin: 0;
+
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.topCloud {
+  position: absolute;
+  right: 300px;
+  top: 40px
+}
+
+.bottomCloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+.skill-row{
+  position: inherit;
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+
+
+}
